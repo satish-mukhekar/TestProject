@@ -1,0 +1,52 @@
+.contract-interaction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.amount-input {
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.action-button {
+    margin-bottom: 5px;
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.action-button:hover {
+    background-color: #0056b3;
+}
+
+.response-display {
+    margin-top: 20px;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.response-display p {
+    margin-bottom: 5px;
+}
+
+/* Additional styling for responses */
+.response-display.details {
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+.response-display.staker-info {
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+}
